@@ -1,0 +1,333 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #030328;
+}
+
+.Friends{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cabecalho{
+    height: 55px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.265);
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.cabecalho > img{
+    height: 27px;
+    width: auto;
+}
+
+.nav > a{
+    font-family: 'fonte1';
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav > button{
+    background-color: rgb(181, 53, 246);
+    height: 36px;
+    width: 164px;
+    border: none;
+    border-radius: 25px;
+    font-family: 'fonte1';
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: white;
+    margin-left: 30px;
+}
+
+.nav > button:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.Friends > img{
+    height: 624px;
+    width: 1110px;
+    margin-bottom: 55px;
+}
+
+.Friends > h1{
+    margin-top: 110px;
+    margin-bottom: 10px;
+    margin-right: 1010px;
+    font-family: 'fonte9';
+    color: white;
+    font-size: 30px;
+    font-weight: 15;
+}
+
+.gradient {
+    background-image: url(../assets/images/gradient2.jpg);
+    height: 108px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-size: cover;
+}
+
+.gradient > h2{
+    font-family: 'fonte9';
+    color: white;
+    font-size: 30px;
+    font-weight: 15;
+}
+
+.gradient > button{
+    background: linear-gradient(345deg, rgb(73, 12, 176) 0%, rgb(155, 52, 239) 33%, rgba(255, 255, 255, 0) 66%, rgba(255, 255, 255, 0) 100%) 99% 50% / 400% 400%;
+    height: 44px;
+    width: 202px;
+    border: none;
+    border-radius: 25px;
+    font-family: 'fonte1';
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: white;
+}
+
+.gradient > button:hover{
+    color: black;
+    background: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.textos{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    width: 1140px;
+    justify-content: space-evenly;
+}
+
+.textos > p{
+    font-family: 'fonte13';
+    color: white;
+    font-weight: 15;
+    text-align: left;
+    width: 880px !important;
+    font-size: 20px;
+    line-height: 1.6em;
+    margin-top: 30px;
+    margin-right: 25px;
+}
+
+.left{
+    margin-left: 125px;
+    margin-right: 20px;
+}
+
+.titulos{
+    width: 1140px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.titulos > h1{
+    font-family: 'fonte9';
+    color: white;
+    font-size: 30px;
+    font-weight: 15;
+    margin-top: 45px;
+    margin-left: 21px;
+    margin-bottom: 25px
+}
+
+.titulos > a{
+    margin-top: 45px;
+    font-weight: 700;
+    letter-spacing: .2em;
+    font-family: 'fonte4';
+    text-transform: uppercase;
+    color: #9e86ff;
+    text-decoration: none;
+    margin-right: 22px;
+}
+
+.titulos > a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.temporada{
+    height: 250vh;
+    background-color:#030328;
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-left: 99px;
+}
+
+.episodios{
+    width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly !important;
+    align-items: start;
+    justify-content: center;
+}
+
+.episodios > div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.episodios img{
+    width: 255px;
+    height: 143px;
+    margin-bottom: 10px;
+}
+
+.episodios h6{
+    color: white;
+    font-family: 'fonte9';
+    font-size: 15px;
+    font-weight: 35;
+    width: 225px;
+    margin-bottom: 5px;
+}
+
+.episodios p{
+    font-weight: 400 !important;
+    font-size: 12px;
+    width: 250px;
+    font-family: 'fonte15';
+    color: white;
+    line-height: 1.6em;
+}
+
+.episodios a{
+    text-decoration: none;
+    color: #9e86ff;
+}
+
+.catálogo{
+    height: 110vh;
+    width: 100%;
+    background-color: #030328;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 35px;
+}
+
+.textos2{
+    width: 1140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.textos2 h1{
+    font-family: 'fonte9';
+    color: white;
+    font-size: 30px;
+    font-weight: 15;
+    margin-left: 15px;
+}
+
+.series{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly !important;
+    align-items: start;
+    justify-content: center;
+    margin-top: 25px;
+    width: 1140px;
+}
+
+.series > div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+.series img{
+    width: 255px;
+    height: 143px;
+    margin-bottom: 15px;
+}
+
+.series h6{
+    color: white;
+    font-family: 'fonte9';
+    font-size: 17px;
+    font-weight: 35;
+}
+
+.rodape{
+    height: 25vh;
+    background-color: #030328;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 150px;
+}
+
+.rodape > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.rodape > div > a{
+    font-family: 'fonte1';
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #9e86ff;
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+.dif{
+    margin-left: 180px !important;
+}
+
+.rodape > div > p{
+    font-weight: 400 !important;
+    font-size: 12px;
+    font-family: 'fonte15';
+    color: #9e86ff !important;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.uni{
+    margin-left: 159px !important;
+}
+
+.direitos {
+    margin-left: 210px !important;
+}
